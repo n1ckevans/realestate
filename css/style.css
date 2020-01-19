@@ -53,6 +53,14 @@ a:hover {
   text-decoration: none;
 }
 
+.shadow {
+  text-shadow: 2px 2px #000000;
+}
+
+.shadow-w {
+  text-shadow: 2px 2px #ffffff;
+}
+
 .link-icon {
   color: #000000;
   font-weight: 500;
@@ -91,7 +99,7 @@ a:hover {
 }
 
 .color-b {
-  color: #2eca6a;
+  color: #1E73BE;
 }
 
 .color-d {
@@ -99,7 +107,7 @@ a:hover {
 }
 
 .color-text-a {
-  color: #555555;
+  color: #202020;
 }
 
 .no-margin {
@@ -692,60 +700,6 @@ a:hover {
   filter: alpha(opacity=1);
 }
 
-/*------/ Hamburger Navbar /------*/
-
-.navbar-toggler {
-  position: relative;
-}
-
-.navbar-toggler:focus,
-.navbar-toggler:active {
-  outline: 0;
-}
-
-.navbar-toggler span {
-  display: block;
-  background-color: #000000;
-  height: 3px;
-  width: 25px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  left: 0;
-  opacity: 1;
-}
-
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
-  transition: -webkit-transform .35s ease-in-out;
-  transition: transform .35s ease-in-out;
-  transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute;
-  left: 12px;
-  top: 10px;
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
-  opacity: 0.9;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
-  height: 12px;
-  visibility: hidden;
-  background-color: transparent;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
-  position: absolute;
-  left: 12px;
-  top: 10px;
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-  opacity: 0.9;
-}
 
 /*======================================
 //--//-->   BOX COLAPSE
@@ -1963,7 +1917,7 @@ footer .credits {
 
 @media (max-width: 767px) {
   .text-brand {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   .section-t8 {
