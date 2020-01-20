@@ -35,6 +35,7 @@ html {
 
 .carousel-caption h1 {
   font-size: 500%;
+  text-shadow: 1px 1px 10px #000000;
 }
 
   .carousel-caption p {
