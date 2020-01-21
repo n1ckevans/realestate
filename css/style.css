@@ -25,7 +25,7 @@ html {
 .carousel-caption {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-80%);
   
 }
 
@@ -35,7 +35,7 @@ html {
 }
 
   .carousel-caption p {
-    font-size: 200%;
+    font-size: 10%;
     font-weight: 500;
     text-shadow: 1px 1px 10px #000000;
 }
@@ -89,6 +89,10 @@ html {
   max-height: 625px;
   border: 5px solid #3f3f3f; 
   margin-bottom: 2rem;
+}
+
+.carousel-indicators{
+  background-color: black;
 }
 
 .about-dan {
@@ -149,8 +153,8 @@ html {
 }
 
 footer {
-  padding: 1.5rem;
-  padding-bottom:-2.5rem;
+  padding-top: 1.5rem;
+
 }
 
 footer h2 {
@@ -159,10 +163,24 @@ footer h2 {
 }
 
 footer img {
+  max-width:  30%;
+  max-height: 30%;
+
+ 
+}
+
+#slide {
+  margin-bottom: 1rem;
+}
+
+footer hr {
+  background-color: white;
   max-width:  70%;
-  max-height: 70%;
-  padding-top: 0.7rem;
-  padding-bottom: 1.8rem;
+
+}
+
+footer h4 {
+  padding: 0.65rem;
 }
 
 footer h5 {
@@ -204,4 +222,153 @@ footer h5 {
   color: #000000;
   font-size: 2rem;
   font-weight: 600;
+}
+
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .landing {
+    height: 90%;
+  }
+  
+   .carousel-caption {
+     
+      top: 35%;
+      position: absolute;
+  
+      transform: translateY(-60%);
+      
+    }
+    .carousel-item {
+      width: 100%;
+    
+    }
+    
+    .carousel-caption h1 {
+      font-size: 280%;
+      text-shadow: 1px 1px 10px #000000;
+    }
+    
+      .carousel-caption p {
+        font-size: 100%;
+        font-weight: 500;
+        text-shadow: 1px 1px 10px #000000;
+  }
+  
+  
+  footer h5 {
+    padding: 0.65rem;
+    font-size: 95%;
+  }
+  
+  footer h5 {
+    padding: 0.65rem;
+    font-size: 95%;
+  }
+  
+  footer h5 {
+    padding: 0.65rem;
+    font-size: 90%;
+  }
+  
+  footer p {
+    padding: 0.65rem;
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+.landing {
+  height: 90%;
+}
+
+ .carousel-caption {
+   
+    top: 35%;
+    position: absolute;
+
+    transform: translateY(-40%);
+    
+  }
+  .carousel-item {
+    width: 100%;
+  
+  }
+  
+  .carousel-caption h1 {
+    font-size: 260%;
+    font-weight: 300;
+    text-shadow: 1px 1px 10px #000000;
+  }
+  
+    .carousel-caption p {
+      display: none;
+}
+
+
+footer h5 {
+  padding: 0.65rem;
+  font-size: 95%;
+}
+
+footer h5 {
+  padding: 0.65rem;
+  font-size: 95%;
+}
+
+footer h5 {
+  padding: 0.65rem;
+  font-size: 90%;
+}
+
+footer p {
+  padding: 0.65rem;
+  font-size: 65%;
+}
+
+@media (max-width: 576px) {
+ 
+  
+   .carousel-caption {
+     
+      top: 35%;
+      position: absolute;
+  
+      transform: translateY(-40%);
+      
+    }
+    .carousel-item {
+      width: 100%;
+    
+    }
+    
+    .carousel-caption h1 {
+      font-size: 200%;
+      text-shadow: 1px 1px 10px #000000;
+    }
+    
+      .carousel-caption p {
+        display: none;
+  }
+  
+  
+  footer h5 {
+    padding: 0.65rem;
+    font-size: 95%;
+  }
+  
+  footer h5 {
+    padding: 0.65rem;
+    font-size: 95%;
+  }
+  
+  footer h5 {
+    padding: 0.65rem;
+    font-size: 90%;
+  }
+  
+  footer p {
+    padding: 0.65rem;
+    font-size: 65%;
+  }
 }
