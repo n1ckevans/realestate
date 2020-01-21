@@ -403,5 +403,29 @@
   </div>
   </footer>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAeMxPFvpMIQ0fUbpL2mGsd8IWiZo2Y1s8",
+    authDomain: "dan-evans-real-estate.firebaseapp.com",
+    databaseURL: "https://dan-evans-real-estate.firebaseio.com",
+    projectId: "dan-evans-real-estate",
+    storageBucket: "dan-evans-real-estate.appspot.com",
+    messagingSenderId: "181999748908",
+    appId: "1:181999748908:web:f142e9175ad8ff9e330e89",
+    measurementId: "G-ZW8MLVZ32T"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
   </body>
 </html>

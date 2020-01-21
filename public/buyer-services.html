@@ -130,36 +130,6 @@
 
 
     <!-- Footer -->
-    <footer class="bg-secondary text-white">
-      <div class="container-fluid">
-      <div class="row text-center">
-         <div class="col-md-4">
-          <h4 class="text-white">Let’s Get Started!</h4>
-          <hr class="light">
-          <p>Discover how your friends and neighbors feel about their experience when hiring me to sell or help them with the purchase of their home</p>
-          <!-- <hr class="light"> -->
-          
-          <!-- <hr class="light"> -->
-        </div>
-        <div class="col-md-4">
-          
-          <h1 class="text-white">Dan Evans</h1>
-           <hr class="light">
-           <h5> (541) 410-9060 | dan@danevansrealestate.com</h5>
-        </div>
-        <div class="col-md-4">
-          
-         
-         
-        
-            <a href="https://www.premierepropertygroup.com/"><img src="img/ppg-logo.png" alt="Premiere Property Group, LLC"></a>
-                <hr class="light">
-          <p>Principal Real Estate Broker | Licensed in Oregon</p>
-        </div>
-      
-       </div>
-      </div>
-      </footer>    <!-- Footer -->
       <footer class="bg-secondary text-white">
         <div class="container-fluid">
         <div class="row text-center">
@@ -191,5 +161,29 @@
         </div>
         </footer>
 
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAeMxPFvpMIQ0fUbpL2mGsd8IWiZo2Y1s8",
+    authDomain: "dan-evans-real-estate.firebaseapp.com",
+    databaseURL: "https://dan-evans-real-estate.firebaseio.com",
+    projectId: "dan-evans-real-estate",
+    storageBucket: "dan-evans-real-estate.appspot.com",
+    messagingSenderId: "181999748908",
+    appId: "1:181999748908:web:f142e9175ad8ff9e330e89",
+    measurementId: "G-ZW8MLVZ32T"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   </body>
 </html>

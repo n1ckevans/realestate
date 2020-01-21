@@ -328,13 +328,54 @@ footer p {
 
 @media (max-width: 576px) {
  
-  
-   .carousel-caption {
-     
+#dan-header {
+  font-size: 95%
+}
+
+.landing {
+  width: 100%;
+}
+
+  #care {
+    font-size: 160%;
+      text-shadow: 1px 1px 10px #000000;
       top: 35%;
       position: absolute;
   
-      transform: translateY(-40%);
+      transform: translateY(-30%);
+  }
+
+  #experience {
+    font-size: 180%;
+      text-shadow: 1px 1px 10px #000000;
+      top: 35%;
+      position: absolute;
+  
+      transform: translateY(-30%);
+  }
+
+  #bask {
+    font-size: 180%;
+      text-shadow: 1px 1px 10px #000000;
+      top: 35%;
+      position: absolute;
+  
+      transform: translateY(-30%);
+  }
+
+  #direct {
+    font-size: 170%;
+      text-shadow: 1px 1px 10px #000000;
+      top: 35%;
+      position: absolute;
+  
+      transform: translateY(-30%);
+  }
+
+  
+   .carousel-caption {
+     
+      
       
     }
     .carousel-item {
@@ -352,6 +393,31 @@ footer p {
   }
   
   
+#started {
+  padding: -1rem;
+  margin: -1rem;
+    font-size: 85%;
+}
+
+#discover {
+  padding: -0.5rem;
+  margin: -0.5rem;
+    font-size: 75%;
+}
+
+#name {
+  /* padding: -0.5rem;
+  margin: -0.5rem; */
+  padding-top: 0.75rem;
+    font-size: 99.9%;
+}
+
+#contact {
+margin-bottom: 1rem;
+
+    font-size: 75%;
+}
+
   footer h5 {
     padding: 0.65rem;
     font-size: 95%;
