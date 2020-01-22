@@ -332,6 +332,16 @@ footer p {
   font-size: 95%
 }
 
+#dan {
+  width: 100%;
+}
+
+.review{
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: -2rem;
+}
+
 .landing {
   width: 100%;
 }
@@ -342,7 +352,7 @@ footer p {
       top: 35%;
       position: absolute;
   
-      transform: translateY(-30%);
+      transform: translateY(-20%);
   }
 
   #experience {
@@ -355,18 +365,18 @@ footer p {
   }
 
   #bask {
-    font-size: 180%;
+    font-size: 150%;
       text-shadow: 1px 1px 10px #000000;
-      top: 35%;
+      top: 20%;
       position: absolute;
   
       transform: translateY(-30%);
   }
 
   #direct {
-    font-size: 170%;
+    font-size: 150%;
       text-shadow: 1px 1px 10px #000000;
-      top: 35%;
+      top: 20%;
       position: absolute;
   
       transform: translateY(-30%);
@@ -437,4 +447,51 @@ margin-bottom: 1rem;
     padding: 0.65rem;
     font-size: 65%;
   }
+
+.icons {
+  margin-top: -8rem;
+}
+
+  .seller-sm {
+    margin-bottom: 2rem;
+  }
+
+  .buyer-sm {
+    margin-bottom: 2rem;
+  }
+
+  .parallax-1 {
+    /* The image used */
+    background-image: url('../img/for-sale.jpg');
+  
+    /* Set a specific height */
+    height: 40%;
+    width: 100%;
+
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    /* The image used */
+    background-image: url('../img/Three_sisters.jpg');
+  
+    /* Set a specific height */
+    height: 40%;
+    width: 100%;
+
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+  }
+
+
 }
