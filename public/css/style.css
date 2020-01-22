@@ -114,6 +114,7 @@ html {
 .lead {
   text-align: center;
   vertical-align: middle;
+
 }
 
 .fa-twitter {
@@ -193,7 +194,7 @@ footer h5 {
 }
 
 .padding {
-  font-size: 2em;
+  /* font-size: 2em; */
   padding: 2rem;
 }
 
@@ -226,11 +227,40 @@ footer h5 {
 }
 
 
+/* .review{
+  width: 70%;
+ 
+
+} */
+
+
 /* Media Queries */
+@media (max-width: 1452px) {
+
+
+.review{
+  width: 70%;
+  position: center;
+  margin-left: 1rem;
+}
+
+.lead {
+  font-size: 99%;
+}
+
+}
+
+
 @media (max-width: 992px) {
 
 .landing-p {
 display: none;
+}
+
+.review{
+  width: 80%;
+  position: center;
+
 }
 
   #care {
