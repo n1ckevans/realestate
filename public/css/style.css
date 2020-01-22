@@ -35,9 +35,9 @@ html {
 }
 
   .carousel-caption p {
-    font-size: 180%;
-    font-weight: 500;
-    text-shadow: 1px 1px 10px #000000;
+    font-size: 145%;
+    font-weight: 420;
+    text-shadow: 2px 2px 12px #000000;
 }
 
 #meet {
@@ -81,6 +81,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 2rem;
 }
 
 
@@ -227,24 +228,66 @@ footer h5 {
 
 /* Media Queries */
 @media (max-width: 992px) {
+
+.landing-p {
+display: none;
+}
+
+  #care {
+    font-size: 360%;
+      text-shadow: 1px 1px 10px #000000;
+      top: 35%;
+      position: absolute;
+  
+      transform: translateY(-25%);
+  }
+  
+  #experience {
+    font-size: 400%;
+    text-shadow: 1px 1px 10px #000000;
+    top: 35%;
+    position: absolute;
+
+    transform: translateY(-25%);
+  }
+  
+  #bask {
+    font-size: 400%;
+      text-shadow: 1px 1px 10px #000000;
+      top: 35%;
+      position: absolute;
+  
+      transform: translateY(-25%);
+  }
+  
+  #direct {
+    font-size: 400%;
+      text-shadow: 1px 1px 10px #000000;
+      top: 35%;
+      position: absolute;
+  
+      transform: translateY(-25%);
+  }
+
+  
   .landing {
     height: 90%;
   }
   
-   .carousel-caption {
+   /* .carousel-caption {
      
       top: 35%;
       position: absolute;
   
       transform: translateY(-60%);
       
-    }
+    } */
     .carousel-item {
       width: 100%;
     
     }
     
-    .carousel-caption h1 {
+    /* .carousel-caption h1 {
       font-size: 280%;
       text-shadow: 1px 1px 10px #000000;
     }
@@ -253,7 +296,7 @@ footer h5 {
         font-size: 100%;
         font-weight: 500;
         text-shadow: 1px 1px 10px #000000;
-  }
+  } */
   
   
   footer h5 {
@@ -282,6 +325,43 @@ footer h5 {
   height: 90%;
 }
 
+#care {
+  font-size: 260%;
+    text-shadow: 1px 1px 10px #000000;
+    top: 35%;
+    position: absolute;
+
+    transform: translateY(-30%);
+}
+
+#experience {
+  font-size: 300%;
+    text-shadow: 1px 1px 10px #000000;
+    top: 35%;
+    position: absolute;
+
+    transform: translateY(-30%);
+}
+
+#bask {
+  font-size: 300%;
+    text-shadow: 1px 1px 10px #000000;
+    top: 35%;
+    position: absolute;
+
+    transform: translateY(-30%);
+}
+
+#direct {
+  font-size: 300%;
+    text-shadow: 1px 1px 10px #000000;
+    top: 35%;
+    position: absolute;
+
+    transform: translateY(-30%);
+}
+
+
  .carousel-caption {
    
     top: 35%;
@@ -304,16 +384,11 @@ footer h5 {
     .carousel-caption p {
       display: none;
 }
+.review{
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: -2rem;
 
-
-footer h5 {
-  padding: 0.65rem;
-  font-size: 95%;
-}
-
-footer h5 {
-  padding: 0.65rem;
-  font-size: 95%;
 }
 
 footer h5 {
@@ -325,6 +400,54 @@ footer p {
   padding: 0.65rem;
   font-size: 65%;
 }
+
+.icons {
+  margin-top: -8rem;
+}
+
+  .seller-sm {
+    margin-bottom: 2rem;
+  }
+
+  .buyer-sm {
+    margin-bottom: 2rem;
+  }
+
+
+  .parallax-1 {
+    /* The image used */
+    background-image: url('../img/for-sale.jpg');
+  
+    /* Set a specific height */
+    height: 40%;
+    width: 100%;
+
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    /* The image used */
+    background-image: url('../img/Three_sisters.jpg');
+  
+    /* Set a specific height */
+    height: 50%;
+    width: 100%;
+
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+  }
+
+
 
 @media (max-width: 576px) {
  
@@ -382,12 +505,7 @@ footer p {
       transform: translateY(-30%);
   }
 
-  
-   .carousel-caption {
-     
-      
-      
-    }
+
     .carousel-item {
       width: 100%;
     
@@ -428,16 +546,7 @@ margin-bottom: 1rem;
     font-size: 75%;
 }
 
-  footer h5 {
-    padding: 0.65rem;
-    font-size: 95%;
-  }
-  
-  footer h5 {
-    padding: 0.65rem;
-    font-size: 95%;
-  }
-  
+ 
   footer h5 {
     padding: 0.65rem;
     font-size: 90%;
