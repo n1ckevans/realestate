@@ -1,160 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dan Evans Real Estate</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="img/favicon.ico" rel="icon" />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/5df482d9c3.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <a id="dan-header" class="navbar-brand text-brand" href="index.html">Dan Evans <span class="color-b">Real Estate Broker</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="dan.html">Meet Dan</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="reviews.html">Client Reviews</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="seller-services.html">Seller Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="buyer-services.html">Buyer Services</a>
-          </li>
-        </ul>
-        
-      </div>
-    </div>  
-    </nav>
-       <!-- One Column -->
- <div class="container-fluid text-center">
-  <div class="row ">
-    <div class="col-md-12">
-        <h1 id="meet" class="text-center">Buyer Services</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dan Evans Real Estate</title>
+  <link href="img/danevans.ico" rel="icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="google-site-verification" content="tzOa26VpK9ui3GJe6szyQxkCcWkFKmTXEuS15xUUdTI"/>
+  <meta name="description" content="Dan Evans Real Estate Broker">
+  <link rel="canonical" href="https://danevansrealestate.com/">
+  <meta name="msapplication-square70x70logo" content="img/favicon-32x32.png" />
+  <meta name="msapplication-square150x150logo" content="img/favicon-32x32.png" />
+  <meta name="msapplication-wide310x150logo" content="img/favicon-32x32.png" />
+  <meta name="msapplication-square310x310logo" content="img/favicon-32x32.png" />
+  <meta name="msapplication-TileColor" content="#fff" />
+  <meta name="application-name" content="Dan Evans Real Estate Broker" />
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dan Evans Real Estate Broker">
+  <meta property="og:description" content="Dan Evans Real Estate Broker">
+  <meta property="og:url" content="https://danevansrealestate.com/">
+  <meta property="og:site_name" content="Dan Evans Real Estate Broker">
+   <link rel="shortlink" href="https://danevansrealestate.com/">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+</head>
+
+
+<body>
+  <header>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a id="dan-nav" class="navbar-brand text-brand" href="index.html">Dan Evans <span class="blue">Real Estate Broker</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDan" aria-controls="navbarDan" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarDan">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none " href="index.html">Home</a>
+            </button>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none" href="dan.html">About Dan</a>
+            </button>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none" href="client-reviews.html">Client Reviews</a>
+            </button>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none" href="seller-services.html">Seller Services</a>
+            </button>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none current" href="buyer-services.html">Buyer Services</a>
+            </button>
+          </div>
+        </li>
+
+      </ul>
+      
     </div>
+
+  </nav>
+</header>
+
+<main>
+
+
+ <!-- Buyer Services Parallax -->
+ <div id="buyer-parallax" class="parallax mb-5"> 
+  <div class="parallax-text">
+    <h1 class="text-center">Buyer Services</h1>
   </div>
-</div> 
+</div>
 
-
-    <div class="parallax-2"> 
-    </div>
-
-  <!-- Two Column -->
-  <div class="container-fluid padding">
-    <div class="row padding">
-      <div class="col-md-6">
-       <h3 class="mb-5">Whether buying a home for your family or an investment for financial gain,
+<div class="container-fluid text-center">
+  <div id="seller-services" >
+    <p>
+      Whether buying a home for your family or an investment for financial gain,
         your experience can be an absolute joy or a massive headache.
         And the agent you choose to work with plays a big part.
-        </h3>
-        <h4 class="buyer-sm">First licensed in California in 1988, I began helping home buyers in Central Oregon in 2001.</h4 class="buyer-sm">
-      </div>
-      <div class="col-md-6">
-        <h3 class="mb-5">Throughout my career, I have been involved in the sale of luxury properties, new homes, resales of existing homes,
-          condominiums, foreclosures, short sales, apartment buildings, and investment properties.</h3>
-          <h4 class="buyer-sm">Call me today to put my more than 20 years of experience to work for you in the purchase of your next home!</h4>
-      </div>
+    </p>
+    <p>
+      First licensed in California in 1988, I began helping home buyers in Central Oregon in 2001.
+    </p>
+    <p>
+      Throughout my career, I have been involved in the sale of luxury properties, new homes, resales of existing homes,
+      condominiums, foreclosures, short sales, apartment buildings, and investment properties.
+    </p>
+    <p>
+      Call me today to put my more than 20 years of experience to work for you in the purchase of your next home!
+    </p>
+  </div>
+</div>
+  </main>
 
-    </div>
-    </div>
-  
-    <!-- One Column -->
-    <!-- <div class="container-fluid padding text-center">
-      <div class="row padding">
-        <div class="col-md-12">
-            <h4>Call Me Directly</h4>
-            <h3>Dan Evans | (541)410-9060</h3>
-        </div>
-      </div>
-    </div> -->
-    
+
 
   <!-- Footer -->
-  <!-- <footer class="bg-secondary text-white">
-    <div class="container-fluid padding">
-    <div class="row text-center">
-      <div class="col-md-12 my-2">
-        <img src="img/ppg-logo.png" alt="Premiere Property Group, LLC">
-        <p class="lead">Principal Real Estate Broker | Licensed in Oregon</p>
-      </div>
-      <div class="col-md-12 my-2">
-        <h6 class="text-white">Copyright © 2020 Dan Evans PC. All rights reserved.</h6>
-      </div>
-    </div>
-    </div>
-    </footer> -->
-
-
- <!-- Footer -->
-<footer class="bg-secondary text-white">
-  <div class="container-fluid">
+  <footer class="navbar navbar-expand-md bg-secondary text-white">
   <div class="row text-center">
+  
      <div class="col-md-4">
-      <h4 id="started" class="text-white">Let’s Get Started!</h4>
-      <hr class="light">
+      <h2>Let’s Get Started!</h2>
       <p id="discover">Discover how your friends and neighbors feel about their experience when hiring me to sell or help them with the purchase of their home</p>
-      <!-- <hr class="light"> -->
-      
-      <!-- <hr class="light"> -->
     </div>
+  
     <div class="col-md-4">
+      <h1 class="text-white">Dan Evans</h1>
+  
+      <div class="hide-large">
+        <p class="mb-1"> (541) 410-9060</p>  
+        <a class="mt-1" href="mailto:dan@danevansrealestate.com?Subject=General%20Inquiry" target="_top">dan@danevansrealestate.com</a>
+      </div>
+  
+       <div class="hide-small">
+        <h3> (541) 410-9060 | dan@danevansrealestate.com</h3>
+       </div>
       
-      <h1 id="name" class="text-white">Dan Evans</h1>
-       <hr class="light">
-       <h5 id="contact"> (541) 410-9060 | dan@danevansrealestate.com</h5>
     </div>
+  
     <div class="col-md-4">
-      
-     
-     
-    
-        <a href="https://www.premierepropertygroup.com/"><img src="img/ppg-logo.png" alt="Premiere Property Group, LLC"></a>
-            <hr class="light">
-      <p>Principal Real Estate Broker | Licensed in Oregon</p>
+        <a href="https://www.premierepropertygroup.com/">
+          <img src="img/ppg-logo.png" 
+          alt="Premiere Property Group, LLC">
+        </a>
+  
+      <div class="hide-large">
+        <p class="mb-1"> Principal Real Estate Broker
+        </p> 
+        <p class="mt-1">Licensed in Oregon</p> 
+  
+  
+      </div>
+  
+       <div class="hide-small">
+        <h3> Principal Real Estate Broker | Licensed in Oregon</h3>
+       </div>
+  
+  
+  
+      <p>
+        
+      </p>
     </div>
   
    </div>
-  </div>
+  
   </footer>
-
-
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5df482d9c3.js" crossorigin="anonymous"></script>
+  
   </body>
-</html>
+  </html>

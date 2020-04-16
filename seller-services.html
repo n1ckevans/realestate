@@ -1,262 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dan Evans Real Estate</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="img/favicon.ico" rel="icon" />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/5df482d9c3.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- Nav Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-  <div class="container-fluid">
-    <a id="dan-header" class="navbar-brand text-brand" href="index.html">Dan Evans <span class="color-b">Real Estate Broker</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dan Evans Real Estate</title>
+  <link href="img/danevans.ico" rel="icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="google-site-verification" content="tzOa26VpK9ui3GJe6szyQxkCcWkFKmTXEuS15xUUdTI"/>
+  <meta name="description" content="Dan Evans Real Estate Broker">
+  <link rel="canonical" href="https://danevansrealestate.com/">
+  <meta name="msapplication-square70x70logo" content="img/favicon-32x32.png" />
+  <meta name="msapplication-square150x150logo" content="img/favicon-32x32.png" />
+  <meta name="msapplication-wide310x150logo" content="img/favicon-32x32.png" />
+  <meta name="msapplication-square310x310logo" content="img/favicon-32x32.png" />
+  <meta name="msapplication-TileColor" content="#fff" />
+  <meta name="application-name" content="Dan Evans Real Estate Broker" />
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dan Evans Real Estate Broker">
+  <meta property="og:description" content="Dan Evans Real Estate Broker">
+  <meta property="og:url" content="https://danevansrealestate.com/">
+  <meta property="og:site_name" content="Dan Evans Real Estate Broker">
+   <link rel="shortlink" href="https://danevansrealestate.com/">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+</head>
+
+
+<body>
+  <header>
+  <!-- Navigation -->
+ <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a id="dan-nav" class="navbar-brand text-brand" href="index.html">Dan Evans <span class="blue">Real Estate Broker</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDan" aria-controls="navbarDan" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
+    <div class="collapse navbar-collapse" id="navbarDan">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
         <li class="nav-item">
-          <a class="nav-link" href="dan.html">Meet Dan</a>
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none " href="index.html">Home</a>
+            </button>
+          </div>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="reviews.html">Client Reviews</a>
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none" href="dan.html">About Dan</a>
+            </button>
+          </div>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="seller-services.html">Seller Services</a>
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none" href="client-reviews.html">Client Reviews</a>
+            </button>
+          </div>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="buyer-services.html">Buyer Services</a>
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none current" href="seller-services.html">Seller Services</a>
+            </button>
+          </div>
         </li>
+
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <a class="text-decoration-none" href="buyer-services.html">Buyer Services</a>
+            </button>
+          </div>
+        </li>
+
       </ul>
       
     </div>
-  </div>  
+
   </nav>
+</header>
 
-       <!-- One Column -->
-       <div class="container-fluid text-center">
-        <div class="row ">
-          <div class="col-md-12">
-              <h1 id="meet" class="text-center m-3 p-3">Seller Services</h1>
-          </div>
-        </div>
-      </div> 
-
-  <div class="parallax-1"> 
-  </div>
+<main>
 
 
-  <!-- Three Column -->
-<div class="container-fluid padding">
-  <div class="row padding">
-    <div class="col-md-4">
-     <h2 class="mb-5">Imagine Having Every Real Estate Agent In Central Oregon
-      Trying To Find A Buyer For Your Home!</h2>
-      <h4 class="seller-sm">When you hire me to sell your home you get
-        Massive Exposure To Home Buyers!</h4 class="seller-sm">
-    </div>
-    <div class="col-md-4">
-      <h2 class="mb-5">When you hire me to sell your home you effectively get
-        Every Real Estate Brokerage in Central Oregon
-        Advertising and Promoting Your Home!</h2>
-        <h4 class="seller-sm">When You List Your Home With Me You Get
-          Every Real Estate Agent in Central Oregon
-          Looking For A Buyer For You!</h4>
-    </div>
-    <div class="col-md-4">
-      <h2 class="mb-5">Your Home Will Be Featured On Today’s Most Popular Real Estate Websites</h2>
-        <h4 class="seller-sm">Where today’s home buyers search for their new home!</h4>
-    </div>
-
-  </div>
-  </div>
-
-  <!-- One Column -->
-  <!-- <div class="container-fluid padding text-center">
-    <div class="row padding">
-      <div class="col-md-12">
-        <img class="img img-fluid" src="img/img-network.gif" alt="Realtor Network">
-        <h5>Discover more about these and
-          many other Cutting Edge Strategies I use to
-          Sell Your Home for the Highest Price
-          in the least amount of time!</h5>
-          <h6>Call Me Directly</h6>
-          <h3>Dan Evans | (541)410-9060</h3>
-      </div>
-    </div>
-  </div> -->
-
-
-  <!-- Two Column -->
-  <div class="container-fluid padding text-center icons">
-    <div class="row padding">
-      <div class="col-md-4">
-        <img lass="d-i-block m-auto logo" src="img/AOL-Real-Estate.jpg" alt="AOL Real Estate">
-        <img class="d-i-block m-auto logo" src="img/FrontDoorsOpenHouse.gif" alt="Front Doors Open House">   
-        <img class="d-i-block m-auto logo" src="img/HGTVs-FrontDoor.jpg" alt="HGTVs Front Door"> 
-        <img class="d-i-block  m-auto logo" src="img/HomeFinder.jpg" alt="Home Finder"> 
-        <img class="d-i-block  m-auto logo" src="img/Homes.jpg" alt="Homes.com">
-        <img class="d-i-block m-auto logo" src="img/hotpads.jpg" alt="Hotpads">
-        <img class="d-i-block m-auto logo" src="img/LandWatch.jpg" alt="Land Watch">
-
-      </div>
-      <div class="col-md-4">
-        <img class="img img-fluid p-3" src="img/img-network.gif" alt="Realtor Network">
-        <h5 class="p-3">Discover more about these and
-          many other Cutting Edge Strategies I use to
-          Sell Your Home for the Highest Price
-          in the least amount of time!</h5>
-          <h3>Call Me Directly</h3>
-          <h3>Dan Evans | (541)410-9060</h3>
-      </div>
-
-
-      <div class="col-md-4">
-        <img class="d-i-block m-auto logo" src="img/OregonLive.jpg" alt="Oregon Live">
-        <img class="d-i-block m-auto logo" src="img/RealEstateBook.png" alt="Real Estate Book">
-        <img class="d-i-block m-auto logo" src="img/RealtyTrac.jpg" alt="Realty Trac"> 
-        <img class="d-i-block m-auto logo" src="img/RegisterGuard.jpg" alt="Register Guard">  
-        <img class="d-i-block m-auto logo" src="img/trulia.jpg" alt="Trulia">
-        <img class="d-i-block m-auto logo" src="img/yahoo-homes.jpg" alt="Yahoo Homes"> 
-        <img class="d-i-block m-auto logo" src="img/Zillow.jpg" alt="Zillow"> 
-
-      </div>
+  <!-- Seller Services Parallax -->
+  <div id="seller-parallax" class="parallax mb-5"> 
+    <div class="parallax-text">
+      <h1 class="text-center">Seller Services</h1>
     </div>
   </div>
 
 
 
-  <!-- Image Slider -->
-  <!-- <div id="slides" class="carousel slide " data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img id="logo" class="d-block m-auto" src="img/AOL-Real-Estate.jpg" alt="AOL Real Estate">
-         </div>
-         <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/FrontDoorsOpenHouse.gif" alt="Front Doors Open House">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/HGTVs-FrontDoor.jpg" alt="HGTVs Front Door">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block  m-auto" src="img/HomeFinder.jpg" alt="Home Finder">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block  m-auto" src="img/Homes.jpg" alt="Homes.com">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/hotpads.jpg" alt="Hotpads">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/LandWatch.jpg" alt="Land Watch">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/OregonLive.jpg" alt="Oregon Live">
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/RealEstateBook.png" alt="Real Estate Book">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/RealtyTrac.jpg" alt="Realty Trac">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/RegisterGuard.jpg" alt="Register Guard">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/trulia.jpg" alt="Trulia">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/yahoo-homes.jpg" alt="Yahoo Homes">   
-        </div>
-        <div class="carousel-item">
-          <img id="logo"  class="d-block m-auto" src="img/Zillow.jpg" alt="Zillow">   
-        </div>
-    </div>
-  </div> -->
+<div class="container-fluid text-center">
+  <div id="seller-services" >
+    <p>
+      Imagine Having Every Real Estate Agent In Central Oregon
+      Trying To Find A Buyer For Your Home 
+    </p>
+    <p>
+      When you hire me to sell your home you get
+      Massive Exposure To Home Buyers
+    </p>
+    <p>
+      <img class="d-i-block m-auto logo" src="img/AOL-Real-Estate.jpg" alt="AOL Real Estate">
+      <img class="d-i-block m-auto logo" src="img/FrontDoorsOpenHouse.gif" alt="Front Doors Open House">   
+      <img class="d-i-block m-auto logo" src="img/HGTVs-FrontDoor.jpg" alt="HGTVs Front Door"> 
+      <img class="d-i-block  m-auto logo" src="img/HomeFinder.jpg" alt="Home Finder"> 
+      <img class="d-i-block  m-auto logo" src="img/Homes.jpg" alt="Homes.com">
+      <img class="d-i-block m-auto logo" src="img/hotpads.jpg" alt="Hotpads">
+      <img class="d-i-block m-auto logo" src="img/LandWatch.jpg" alt="Land Watch">
+    </p>
+    <p>
+      When you hire me to sell your home you effectively get
+      Every Real Estate Brokerage in Central Oregon
+      Advertising and Promoting Your Home
+    </p>
+    <p>
+      When You List Your Home With Me You Get
+      Every Real Estate Agent in Central Oregon
+      Looking For A Buyer For You
+    </p>
+    <p>
+      <img class="d-i-block m-auto logo" src="img/OregonLive.jpg" alt="Oregon Live">
+      <img class="d-i-block m-auto logo" src="img/RealEstateBook.png" alt="Real Estate Book">
+      <img class="d-i-block m-auto logo" src="img/RealtyTrac.jpg" alt="Realty Trac"> 
+      <img class="d-i-block m-auto logo" src="img/RegisterGuard.jpg" alt="Register Guard">  
+      <img class="d-i-block m-auto logo" src="img/trulia.jpg" alt="Trulia">
+      <img class="d-i-block m-auto logo" src="img/yahoo-homes.jpg" alt="Yahoo Homes"> 
+      <img class="d-i-block m-auto logo" src="img/Zillow.jpg" alt="Zillow">
+    </p>
+    <p>
+      Your Home Will Be Featured On Today’s Most Popular Real Estate Websites, where today’s home buyers search for their new home
+    </p>
+    <p>
+      <img id="network" class="img img-fluid p-3" src="img/img-network.gif" alt="Realtor Network">
+    </p>
+    <p>
+      Discover more about these and
+      many other Cutting Edge Strategies I use to
+      Sell Your Home for the Highest Price
+      in the least amount of time!
+    </p>
+    <p>
+      Call Me Directly
+    </p>
+    <p>
+      Dan Evans | (541)410-9060
+    </p>
+  </p>
 
+</div>  
+</main>
 
-
-  <!-- Footer -->
-  <!-- <footer class="bg-secondary text-white">
-    <div class="container-fluid padding">
-    <div class="row text-center">
-      <div class="col-md-12 my-2">
-        <img src="img/ppg-logo.png" alt="Premiere Property Group, LLC">
-        <p class="lead">Principal Real Estate Broker | Licensed in Oregon</p>
-      </div>
-      <div class="col-md-12 my-2">
-        <h6 class="text-white">Copyright © 2020 Dan Evans PC. All rights reserved.</h6>
-      </div>
-    </div>
-    </div>
-    </footer> -->
-
-    
 <!-- Footer -->
-<footer class="bg-secondary text-white">
-  <div class="container-fluid">
-  <div class="row text-center">
-     <div class="col-md-4">
-      <h4 id="started" class="text-white">Let’s Get Started!</h4>
-      <hr class="light">
-      <p id="discover">Discover how your friends and neighbors feel about their experience when hiring me to sell or help them with the purchase of their home</p>
-      <!-- <hr class="light"> -->
-      
-      <!-- <hr class="light"> -->
-    </div>
-    <div class="col-md-4">
-      
-      <h1 id="name" class="text-white">Dan Evans</h1>
-       <hr class="light">
-       <h5 id="contact"> (541) 410-9060 | dan@danevansrealestate.com</h5>
-    </div>
-    <div class="col-md-4">
-      
-     
-     
-    
-        <a href="https://www.premierepropertygroup.com/"><img src="img/ppg-logo.png" alt="Premiere Property Group, LLC"></a>
-            <hr class="light">
-      <p>Principal Real Estate Broker | Licensed in Oregon</p>
-    </div>
-  
-   </div>
+<footer class="navbar navbar-expand-md bg-secondary text-white">
+<div class="row text-center">
+
+   <div class="col-md-4">
+    <h2>Let’s Get Started!</h2>
+    <p id="discover">Discover how your friends and neighbors feel about their experience when hiring me to sell or help them with the purchase of their home</p>
   </div>
-  </footer>
+
+  <div class="col-md-4">
+    <h1 class="text-white">Dan Evans</h1>
+
+    <div class="hide-large">
+      <p class="mb-1"> (541) 410-9060</p>  
+      <a class="mt-1" href="mailto:dan@danevansrealestate.com?Subject=General%20Inquiry" target="_top">dan@danevansrealestate.com</a>
+    </div>
+
+     <div class="hide-small">
+      <h3> (541) 410-9060 | dan@danevansrealestate.com</h3>
+     </div>
+    
+  </div>
+
+  <div class="col-md-4">
+      <a href="https://www.premierepropertygroup.com/">
+        <img src="img/ppg-logo.png" 
+        alt="Premiere Property Group, LLC">
+      </a>
+
+    <div class="hide-large">
+      <p class="mb-1"> Principal Real Estate Broker
+      </p> 
+      <p class="mt-1">Licensed in Oregon</p> 
+
+
+    </div>
+
+     <div class="hide-small">
+      <h3> Principal Real Estate Broker | Licensed in Oregon</h3>
+     </div>
 
 
 
-  </body>
+    <p>
+      
+    </p>
+  </div>
+
+ </div>
+
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5df482d9c3.js" crossorigin="anonymous"></script>
+
+</body>
 </html>
