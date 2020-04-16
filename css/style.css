@@ -243,6 +243,7 @@ table {
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
   margin-top: 60px;
+  display: block;
 }
 
 .parallax-text h1{
@@ -413,8 +414,10 @@ footer p{
 
 /* Seller Services */
 #seller-parallax {
-  background-image: url(../img/seller.jpg);
-  background-position: center bottom;
+  background-image: url(../img/for-sale.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 70% -170px;
   margin-top: 0rem;
 }
 
@@ -423,7 +426,7 @@ footer p{
   background-image: url(../img/buyer.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center bottom;
+  background-position: 70% -170px;
   margin-top: 0rem;
 }
 
@@ -497,6 +500,14 @@ footer p{
     width: 24rem;
   }
 
+  #seller-parallax {
+    background-position: 70% -5px;
+  }
+
+  #buyer-parallax {
+    background-position: 70% -55px;
+  }
+
  }
 
 @media (min-width: 768px) {
@@ -568,6 +579,15 @@ footer p{
     padding-left: 5rem;
     padding-right: 5rem;
   }
+
+  #seller-parallax {
+    background-position: 70% -5px;
+  }
+
+  #buyer-parallax {
+    background-position: 70% -5px;
+  }
+
 
  }
 
@@ -695,6 +715,11 @@ footer p{
     width: 18rem;
   }
 
+  #seller-parallax {
+    background-position: 70% -230px;
+  }
+
+ 
 }
 
 
@@ -772,6 +797,14 @@ footer p{
     font-size: 1.5rem;
     line-height: 2;
     padding-bottom: 1.5rem;
+  }
+
+  #seller-parallax {
+    background-position: 70% -450px;
+  }
+
+  #buyer-parallax {
+    background-position: 70% -200px;
   }
 
 }
